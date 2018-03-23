@@ -5,7 +5,11 @@
 </template>
 
 <script>
+  import {login} from './services/login'
 export default {
+  created() {
+      console.log(login.get())
+  }
 
 }
 </script>
